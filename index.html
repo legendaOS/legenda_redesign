@@ -9,20 +9,55 @@
 		
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="crack.css">
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="assets/css/fontawesome.css">
     <link rel="stylesheet" href="assets/css/templatemo-sixteen.css">
     <link rel="stylesheet" href="assets/css/owl.css">
 
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- other page information -->
     <title>Легенда, занятия для детей, детский центр</title>
 </head>
-<body>
+<body class ='normal_font'>
 
     <!-- основной рут компонент -->
     <div id="main">
         <preloader-component></preloader-component>
+        <header-component active-page = 'Главная'></header-component>
+        <banner-component></banner-component>
+        <info-block-component
+            head = 'О нас'
+            title = "Who we are &amp; What we do?"
+            image = 'assets/images/services-bg.jpg'
+            
+            text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Sed voluptate nihil eum consectetur similique? Consectetur, quod, 
+            incidunt, harum is ex fugiat. Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit.
+            
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione
+            praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis."
+        >
+        </info-block-component>
+        <info-block-component
+            head = 'О нас'
+            title = "Who we are &amp; What we do?"
+            image = 'assets/images/services-bg.jpg'
+            
+            text = "haha"
+        >
+        </info-block-component>
+        <page-head-component
+        title = "название"
+        sub-title = "подназвание"
+        >
+        <linker-component seen-links = 'true'></linker-component>
+        </page-head-component>
     </div>
 
 

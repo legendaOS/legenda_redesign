@@ -316,7 +316,14 @@ header .navbar {
 	padding-top: 80px;
 }
 
-.banner-item-01 {
+.banner-item{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding: 300px 0px;
+}
+
+/* .banner-item-01 {
 	padding: 300px 0px;
 	background-image: url(../images/slide_01.jpg);
 	background-size: cover;
@@ -338,7 +345,7 @@ header .navbar {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
-}
+} */
 
 .banner .banner-item {
 	max-height: 600px;
@@ -941,9 +948,8 @@ footer .inner-content p a {
 		font-size: 36px;
 		letter-spacing: 0.5px;
 	}
-	.banner-item-01,
-	.banner-item-02,
-	.banner-item-03 {
+
+	.banner-item{
 		padding: 180px 0px;
 	}
 	.page-heading .text-content h4 {
