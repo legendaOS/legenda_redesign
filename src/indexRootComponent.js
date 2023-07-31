@@ -1,10 +1,11 @@
-const indexRootComponent = {
+import preloaderComponent from "./components/preloaderComponent.js"
+
+const rootComponent = {
     components:{
-        // now empty
+        preloaderComponent
     }
 }
 
-// подвязка к странице
 
-const app = Vue.createApp(indexRootComponent)
-app.mount("#main")
+const app = Vue.createApp(rootComponent)
+app.mount('#main')
